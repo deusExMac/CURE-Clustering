@@ -1,9 +1,18 @@
 # CURE-Clustering
  An implementation of the CURE (Clustering Using REpresentatives) clustering algorithm in R. 
  
- The implementation of CURE follows the design described in section 7.4.1 (pg 275) of [2] and [3]. CURE allows for oddly shaped clusters.
+ The implementation of CURE follows the design described in section 7.4.1 (pg 275) of [2] and [3]. 
  
- Folder testdata/ contains csv files to test CURE clustering. Some of the files in testdata/ were downloaded from [4].
+ Folder testdata/ contains csv files to test CURE implementation. Some of the files in testdata/ were downloaded from [4].
+
+# How to execute
+Make sure to edit the configuration file CURE.config (written in the yaml serialization language) to set the appropriate settings (e.g. number of clusters, number of representatives etc). Each block can refer to specific file. To execute, run
+
+source BFR.R
+
+By default, CURE.yaml file wil be loaded.
+
+
 
 # References
 1) Guha S, Rastogi R, Shim K. CURE: An efficient clustering algorithm for large databases[J]. ACM Sigmod record, 1998, 27(2): 73-84. doi: 10.1145/276305.276312

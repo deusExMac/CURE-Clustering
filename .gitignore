@@ -1,1 +1,14 @@
-. DS_Store
+.DS_Store
+**/.DS_Store
+Regression/.DS_Store
+Clustering/.DS_Store
+.RData
+.Rhistory
+*.pyc
+*.aux
+*.log
+*.gz
+*.out
+~$*
+hidden/
+etc/

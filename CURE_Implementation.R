@@ -134,14 +134,14 @@ hierarchicalClustering <- function(d, nClusters=0, hcM="complete", lbls=NULL){
 #'         
 farthestPoints<-function(df, nPoints=getConfiguration(item='nRepresentatives', default=5)){
   
-  # TODO: Check this
+  
   if (nrow(df) <= nPoints){
       return(rownames(df)) 
   }
   
   # Calculate distance matrix. 
-  # Row and column labels/names are the 
-  # positions of 
+  # Row and column labels/names of the distance matrix are the 
+  # row/columns names in the data frame. 
   dmat <- as.matrix(stats::dist(df))
   diag(dmat) <- NA
   

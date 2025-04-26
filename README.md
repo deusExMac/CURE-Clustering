@@ -16,7 +16,7 @@ By default, CURE.yaml file wil be loaded when execution starts.
 
 # Configuration settings in yaml file
 
-Some critical settings:
+Some important settings:
 
 ``targetColumns`` : LIST OF STRINGS. Which columns (names/header) from the csv file to use for clustering. An empty list means all columns
 

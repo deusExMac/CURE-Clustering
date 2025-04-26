@@ -6,12 +6,15 @@
  Folder testdata/ contains csv files to test CURE implementation. Some of the files in testdata/ were downloaded from [4].
 
 # How to execute
-Make sure to edit the configuration file CURE.config (written in the yaml serialization language) to set the appropriate settings (e.g. number of clusters, number of representatives etc). Each block can refer to specific file. To execute, run
+Make sure to edit the configuration file CURE.config (written in the yaml serialization language) to set the appropriate settings (e.g. number of clusters, number of representatives etc). Each block can refer to specific file. To execute:
 
-source BFR.R
+source CURE.R
 
-By default, CURE.yaml file wil be loaded.
+By default, CURE.yaml file wil be loaded when execution starts.
 
+# Configuration settings in yaml file
+``targetColumns`` : LIST OF STRINGS. Which columns (names/header) from the csv file to use for clustering. An empty list means all columns
+``randomDataSampleSize`` : INTEGER. Number of sampled lines to read from the csv file to start CURE. Lines are randomly selected.
 
 
 # References

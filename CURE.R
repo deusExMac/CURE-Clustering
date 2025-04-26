@@ -45,7 +45,7 @@ cat("\014")
 
 
 # Required R packages for this module
-packages <- c("clevr", "clusterCrit", "ascii", "randomcoloR")
+packages <- c("debugr", "clevr", "clusterCrit", "ascii", "randomcoloR")
 
 # Install packages not yet installed
 installed_packages <- packages %in% rownames(installed.packages())

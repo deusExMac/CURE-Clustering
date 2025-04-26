@@ -16,6 +16,8 @@ By default, CURE.yaml file wil be loaded when execution starts.
 
 # Configuration settings in yaml file
 
+Some critical settings:
+
 ``targetColumns`` : LIST OF STRINGS. Which columns (names/header) from the csv file to use for clustering. An empty list means all columns
 
 ``randomDataSampleSize`` : INTEGER. Number of sampled lines to read from the csv file to start CURE. Lines are randomly selected.

@@ -14,9 +14,9 @@ source CURE.R
 
 By default, CURE.config file wil be loaded when execution starts.
 
-# Configuration settings in yaml file
+# Configuration settings 
 
-Some important settings:
+Some important settings in CURE.config:
 
 ``targetColumns`` : LIST OF STRINGS. Which columns (names/header) from the csv file to use for clustering. An empty list means all columns
 

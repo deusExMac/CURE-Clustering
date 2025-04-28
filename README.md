@@ -12,7 +12,7 @@ Make sure to edit the configuration file CURE.config (written in the yaml serial
 
 source CURE.R
 
-By default, CURE.yaml file wil be loaded when execution starts.
+By default, CURE.config file wil be loaded when execution starts.
 
 # Configuration settings in yaml file
 
